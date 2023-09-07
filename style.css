@@ -58,7 +58,7 @@
 /* Media query for screens with a maximum width of 768px (adjust as needed) */
 @media (max-width: 768px) {
     .main-body {
-        width: 90%; /* Adjust this value to control the width on smaller screens */
+        width: 90%;
         max-width: none; /* Remove the maximum width constraint */
         margin: 0 auto; /* Center horizontally */
     }

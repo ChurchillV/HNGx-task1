@@ -9,14 +9,6 @@ const seconds = today.getUTCSeconds();
 
 currentDay.innerHTML = daysOfTheWeek[today.getDay()];
 
-function changeTime() {
+function setTime() {
     UTCtime.innerHTML = hours + ":" + minutes + ":" + seconds ;
-}
-
-setTimeout(changeTime, 1000);
-
-function adjustTime(digit) {
-    if(digit < 10) {
-        digit = "0" + digit;
-    }
 }

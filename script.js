@@ -12,3 +12,5 @@ currentDay.innerHTML = daysOfTheWeek[today.getDay()];
 function setTime() {
     UTCtime.innerHTML = hours + ":" + minutes + ":" + seconds ;
 }
+
+setTime()
